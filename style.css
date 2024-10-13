@@ -1,0 +1,46 @@
+
+body{
+	background-color:lightpink;
+}
+
+*{
+		color:purple;
+
+		font-size: 30px;
+	}
+.content{
+	color:yellow;
+}
+#one{
+	color:blue;
+}
+
+.parent p{
+	color:orange;
+	background-color:lightgrey;
+	width:600px;
+	display:block;
+}
+.parent .child p:nth-child(1){
+
+	color:lawngreen;
+}
+.parent .child p:nth-child(2){
+
+	color:midnightblue;
+}
+.parent .child2 p{
+
+	color:deeppink;
+	width:1000px;
+}
+.parent .child2 h3{
+
+	color:rebeccapurple;
+}
+
+.marginandpadding p{
+	width:100px;
+	margin:100px;
+	padding:50px;
+}
