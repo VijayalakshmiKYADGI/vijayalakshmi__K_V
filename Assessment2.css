@@ -1,0 +1,182 @@
+
+body{
+
+	background-image:url("greenback.webp") ;
+	background-position: cover;
+}
+h1{
+	color:darkgreen;
+	font-family: cursive;
+	margin:0px;
+	width:500px;
+}
+h2{
+	color:darkred;
+	font-family: cursive;
+	background-color:orange;
+	margin:0px;
+	width:300px;
+	 border-radius: 25px;
+	 align-items: center;
+}
+.body_child{
+
+	margin-left:40px;
+	width: 120px;
+	height: 100px;
+	background-image: url("food3.png");
+	 object-fit: contain;
+	position: absolute;
+	left:0%;
+	top:5%;
+	border-radius: 100px;
+	
+}
+.active {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+li {
+  float: right;
+
+}
+
+li a {
+  display:inline-block;
+    color:darkgreen;
+    font-family: cursive;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+
+  background-color:lightgreen;
+}
+.container{
+	height:350px;
+	width: 1500px;
+	display:flex;
+	flex-direction: ;
+	
+	justify-content:center;
+	align-items:center;
+}
+
+.child{
+	height:300px;
+	width:280px;
+	background-color: lightgreen;
+	margin:20px;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	 border-radius: 25px;
+	 margin-left:20px;
+	border-style: solid;
+  border-color: darkgreen;
+}
+.container1{
+	height:350px;
+	width: 1500px;
+	display:flex;
+	
+	
+	justify-content:center;
+	align-items:center;
+}
+
+.child button{
+	position: relative;
+	right: 0;
+	top: 80px;
+	height:50px;
+	width:150px;
+	font-family: cursive;
+	color:darkgreen;
+	background-color:lightskybfont-family: cursive;
+	color:darkgreen;
+	background-color: lightgreen;
+	border-color: lightblue;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+	
+	
+}
+button:hover:not(.active) {
+
+  background-color:orange;
+}
+h2{
+	font-family: cursive;
+	color:darkgreen;
+	font-size: 20px;
+	
+	width:300px;
+	
+}
+
+#one{
+	background-image: url("burger.jpeg");
+background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#two{
+	background-image: url("fries.jpeg");
+	 background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#three{
+	background-image: url("nood.jpeg") ;
+	  background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#four{
+	background-image: url("pizz.jpeg") ;
+	  background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#five{
+	background-image: url("chicken.jpeg") ;
+	  background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#six{
+	background-image: url("fish.jpeg") ;
+	  background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#seven{
+	background-image: url("tandoori.jpeg") ;
+	  background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+#eight{
+	background-image: url("kabab.jpeg") ;
+	  background-size: cover; /* This ensures the image covers the entire area */
+    background-position: center; /* This centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+	
+}
+
+
+

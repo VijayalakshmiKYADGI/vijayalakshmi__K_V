@@ -1,0 +1,25 @@
+
+h2{
+	padding:50px;
+	margin:50px;
+	margin-top: 20px;
+	margin-left: 30px ;
+	margin-right: 60px;
+	
+	border: 1px solid darkgrey;
+
+}
+
+
+.parent{
+	width:300 px;
+	height:300 px;
+	background-color: yellow;
+	position:relative;
+}
+.child{
+	width:100 px;
+	height:100 px;
+	background-color: green;
+
+}

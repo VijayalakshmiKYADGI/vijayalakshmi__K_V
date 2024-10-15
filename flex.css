@@ -1,0 +1,48 @@
+h1{
+	display:flex;
+	justify-content: flex-start;
+}
+h2{
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	height:500px;
+	width: 500px;
+	display:flex;
+	flex-direction: ;
+	background-color: yellow;
+	justify-content: center;
+	align-items: center;
+}
+
+.child{
+	height:100px;
+	width:150px;
+	background-color: deeppink;
+	margin:20px;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+}
+
+.container1{
+	height:500px;
+	width: 500px;
+	background-color: yellow;
+	justify-content: center;
+	align-items: center;
+	margin:20px;
+	padding: 20px;
+}
+
+.child1{
+	height:100px;
+	width:150px;
+	background-color: deeppink;
+	margin:20px;
+	justify-content: center;
+	align-items: center;
+}
+
