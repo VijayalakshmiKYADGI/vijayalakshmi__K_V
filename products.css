@@ -1,0 +1,158 @@
+body {
+  background-image: url("goldback.jpeg");
+  background-position: cover;
+  margin: 0;
+  position: relative;
+}
+body .chatbot {
+  margin-left: 40px;
+  width: 90px;
+  height: 90px;
+  background-position: cover;
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  border-radius: 50%;
+  justify-content: center;
+}
+body .chatbot img {
+  position: relative;
+  top: 15%;
+  left: 20%;
+}
+body header {
+  background-image: url("headershop.avif");
+  padding: 0;
+  margin: 0;
+  height: 150px;
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: rgb(46, 143, 212);
+}
+
+h2 {
+  color: black;
+  font-family: cursive;
+  background-color: rgb(222, 39, 148);
+  margin: 0px;
+  padding: 5px;
+  font-size: 20px;
+  width: 250px;
+  border-radius: 25px;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.body_child {
+  margin-left: 40px;
+  width: 90px;
+  height: 90px;
+  background-position: cover;
+  position: absolute;
+  left: 0%;
+  top: 3%;
+  background-color: grey;
+  border-radius: 50%;
+  justify-content: center;
+}
+.body_child:hover {
+  background-color: white;
+}
+.body_child img {
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+
+.active {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  margin-right: 25px;
+}
+.active li {
+  float: right;
+}
+.active li a {
+  display: inline-block;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: rgb(175, 173, 173);
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.active li a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+
+.products {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  justify-content: center;
+}
+.products li .item {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: rgb(201, 193, 193);
+  position: relative;
+}
+.products li .item:hover {
+  background-color: white;
+}
+.products li .item h5 {
+  text-align: center;
+  font-size: 16.5px;
+  margin-top: 8px;
+  margin: 0;
+  padding: 10px;
+  background-color: grey;
+  border-color: black;
+  width: 200px;
+  border-bottom-right-radius: 25px;
+}
+.products li .item button {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  margin: 0px;
+  background-color: rgb(57, 139, 221);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  border-color: rgb(57, 139, 221);
+}
+.products li .item button:hover {
+  background-color: green;
+}
+.products li .item p {
+  font-size: 12px;
+  margin-top: 0px;
+  padding: 10px;
+}
+.products li .item .images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.products li .item .images img {
+  height: 150px;
+  width: 190px;
+}/*# sourceMappingURL=products.css.map */
